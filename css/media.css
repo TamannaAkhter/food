@@ -1,0 +1,279 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  header{
+    padding: 0 0;
+  }
+  .logo{
+    width: 180px;
+  }
+  .menu ul li a{
+    margin-bottom: 15px;
+    padding: 0 10px !important;
+  }
+
+  /*banner*/
+.banner{
+  padding-bottom: 60px;
+}
+.b_text{
+  text-align: center;
+}
+ .b_h1{
+
+      padding:0;
+      font-size: 30px;
+      line-height: 40px;
+ }
+.b_p2 {
+    padding: 0;
+    line-height: 30px;
+}
+
+.b_img{
+  margin-bottom: 20px;
+  padding: 0 0px;
+}
+
+
+.btn_link {
+    margin: 15px auto;
+}
+/*feature*/
+.c_padd{
+  padding-bottom: 60px;
+}
+.s_feature{
+  margin-top: 24px;
+}
+.s_img{
+  width: 60px;
+  height: 70px;
+}
+/*course*/
+.c_h1{
+  font-size: 25px;
+}
+.c_item{
+ 
+  margin: 30px 0px 0;
+  padding: 10px 10px 15px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.c_right ul li img,
+.c_left ul li img{
+  width: 18px;
+} 
+.c_left ul li img span,
+.c_right ul li img span{
+  font-weight: 400;
+}
+.c_h2{
+  font-size: 20px;
+}
+/* testimony start */
+
+    .t_item {
+        margin-top: 30px;
+    }
+
+    .t_img {
+        padding: 0 60px 20px;
+    }
+
+    .t_text {
+        text-align: center;
+    }
+
+    /* testimony end */
+    
+    /* footer top start */
+    .footer_top {
+        padding: 55px 0 30px;
+    }
+
+    .ft_details {
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+
+    .ft_links:last-child {
+        margin-bottom: 35px;
+    }
+
+    /* footer top end*/
+  }
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header*/
+header{
+  padding: 5px 0;
+  background-color:#F0FFF0 ;
+}
+
+.menu ul li a{
+  margin-bottom: 15px;
+  padding: 0 10px !important;
+}
+
+/*banner*/
+
+.b_text{
+  text-align: center;
+}
+ .b_h1{
+
+      padding: 0 35px 0;
+      font-size: 35px;
+      line-height: 50px;
+ }
+.b_p2 {
+    padding: 0 36px 0;
+    line-height: 30px;
+}
+
+.b_img{
+  margin-bottom: 30px;
+  padding: 0 50px;
+}
+
+
+.btn_link {
+    margin: 15px auto;
+}
+/*feature*/
+.c_padd{
+  padding-bottom: 60px;
+}
+.s_feature{
+  margin-top: 24px;
+}
+.c_h1{
+  font-size: 25px;
+}
+.c_item{
+ 
+  margin: 30px 60px 0;
+  padding: 20px 15px 25px;
+}
+/* testimony start */
+
+    .t_item {
+        margin-top: 30px;
+    }
+
+    .t_img {
+        padding: 0 120px 20px;
+    }
+
+    .t_text {
+        text-align: center;
+    }
+
+    /* testimony end */
+    /* footer top start */
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 50px;
+    }
+
+    /* footer top end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+  /*header*/
+  .menu ul li a{
+  margin-bottom: 15px;
+  padding: 0 10px !important;
+}
+/*banner*/
+
+.b_text{
+  text-align: center;
+}
+ .b_h1{
+      padding: 0 86px 0;
+ }
+.b_p2 {
+    padding: 0 71px 0;
+
+}
+
+.b_img{
+  margin-bottom: 30px;
+  padding: 0 100px;
+}
+
+.btn_link {
+    margin: 15px auto;
+}
+/*feature*/
+.c_padd{
+  padding-bottom: 80px;
+}
+.s_feature{
+  margin-top: 24px;
+}
+
+.c_item{
+ 
+  margin: 40px 100px 0;
+}
+/* testimony start */
+
+    .t_item {
+        margin-top: 40px;
+    }
+
+    /* testimony end */
+
+    /* footer top start */
+    .ft_details {
+        margin-bottom: 40px;
+        padding: 0 70px;
+    }
+}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .c_item{
+  padding: 24px 15px 30px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+.c_right ul li img,
+.c_left ul li img{
+  width: 18px;
+} 
+.c_left ul li img span,
+.c_right ul li img span{
+  font-weight: 400;
+}
+
+ }
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+/*Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+ /*banner*/
+    .b_h1{
+      padding-right: 105px;
+    }
+    .b_p2{
+      padding-right: 120px;
+    }
+    .s_feature{
+      padding: 65px 0 60px;
+    }
+    
+ }
